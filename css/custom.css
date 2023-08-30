@@ -1,0 +1,367 @@
+/* 导航栏 */
+nav.navbar.user-info-navbar {
+  background: rgba(255, 255, 255) !important;
+  height: 66px;
+  opacity: 0.7;
+}
+.night nav.navbar.user-info-navbar {
+  background: rgb(0, 0, 0) !important;
+  opacity: 0.7;
+}
+a.github-corner {
+  position: fixed;
+  right: 0;
+}
+.navbar.horizontal-menu.navbar-fixed-top {
+  background: rgba(255, 255, 255) !important;
+  height: 66px;
+}
+img.hidden-xs {
+  position: absolute;
+  left: 20px;
+  top: 13px;
+}
+
+/* GitHub 右上角 猫 */
+.night a.github-corner svg {
+  fill: #fff !important;
+  color: #151513 !important;
+}
+
+/* 搜索框 ------------------------------------------------------------ 开始 */
+input#txt {
+  background: rgba(255, 255, 255, 0.7) !important;
+  border-radius: 30px;
+  border: none;
+}
+input#txt::placeholder {
+  color: #666;
+}
+.night input#txt::placeholder {
+  color: #888;
+}
+.night input#txt {
+  background: rgba(0, 0, 0, 0.7) !important;
+}
+.sousuo {
+  padding: 88px 0;
+}
+div.search {
+  width: 96%;
+  /* 搜索框缩短 - 先快后慢 */
+  transition: all 0.3s cubic-bezier(0, 0.3, 0.5, 1);
+}
+div.search:hover {
+  width: 100%;
+  /* 搜索框拉长 - 先快后慢 */
+  transition: all 0.3s cubic-bezier(0, 0.3, 0.5, 1);
+}
+.search-input {
+  color: #111 !important;
+  padding-left: 50px;
+}
+.night .search-input {
+  color: #fff !important;
+}
+.search-icon {
+  left: 5px;
+}
+.search-engine {
+  background: rgba(255, 255, 255, 0.7) !important;
+}
+.night .search-engine {
+  background: rgba(0, 0, 0, 0.7) !important;
+}
+ul.search-engine-list.search-engine-list_zmki_ul {
+  list-style: none;
+  padding-left: 26px;
+}
+.search-engine-list li {
+  background: transparent;
+  color: #222;
+  transition: 0.3s;
+}
+.night .search-engine-list li {
+  color: #ddd;
+  background: transparent !important;
+  transition: 0.3s;
+}
+.search-engine-list li:hover {
+  background: #fff;
+  border-radius: 30px;
+}
+.night .search-engine-list li:hover {
+  background: #666 !important;
+  border-radius: 30px;
+}
+.search-engine-tool {
+  color: black;
+}
+.night .search-engine-tool {
+  color: white;
+}
+strong.search-engine-tit {
+  color: black;
+}
+.night strong.search-engine-tit {
+  color: white;
+}
+.search-engine-tool > span {
+  float: right;
+  display: inline-block;
+  width: 25px;
+  height: 15px;
+  background: url("https://cdn.jsdelivr.net/npm/hassan-assets/navi/off_on.png")
+    no-repeat 0px 0px;
+  cursor: pointer;
+  vertical-align: middle;
+}
+.search-engine {
+  width: 58% !important;
+}
+.search-engine-list::after {
+  height: 60px !important;
+  width: 100px !important;
+  top: -60px !important;
+}
+/* 搜索图标 */
+.fa-search {
+  color: #888;
+  transition: 0.3s;
+}
+.fa-search:hover {
+  color: #111;
+}
+.night .fa-search:hover {
+  color: #ddd;
+}
+/* 搜索框 ------------------------------------------------------------ 结束 */
+
+/* 网址卡片 ---------------------------------------------------------- 开始*/
+.xe-widget.xe-conversations .xe-comment,
+.xe-widget.xe-conversations .overflowClip_1,
+.xe-widget.xe-conversations .overflowClip_2 {
+  width: calc(100% - 44px);
+}
+.xe-widget.xe-conversations {
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.7) !important;
+}
+.xe-widget.xe-conversations img,
+.xe-widget.xe-conversations .overflowClip_1,
+.xe-widget.xe-conversations .overflowClip_2 {
+  transition: 0.3s;
+}
+.xe-widget.xe-conversations:hover img {
+  transform: scale(0);
+}
+.xe-widget.xe-conversations:hover .overflowClip_1,
+.xe-widget.xe-conversations:hover .overflowClip_2 {
+  transform: translateX(-36px);
+  width: calc(100% - 8px);
+}
+.night .xe-widget.xe-conversations {
+  border-color: #4e525c;
+  background: rgba(0, 0, 0, 0.7) !important;
+}
+body.night .box2:hover {
+  background: rgba(0, 0, 0, 0.7) !important;
+}
+/* 分类标题 */
+h4.text-gray {
+  color: #fff;
+  margin: 20px 0 0 0;
+}
+.col-md-12 h4.text-gray {
+  color: #666;
+  text-align: left;
+}
+.night .col-md-12 h4.text-gray {
+  color: #fff;
+}
+p.overflowClip_2 {
+  color: #808080;
+}
+body.night .xe-comment p {
+  color: #aaa !important;
+}
+.col-xs-1,
+.col-sm-1,
+.col-md-1,
+.col-lg-1,
+.col-xs-2,
+.col-sm-2,
+.col-md-2,
+.col-lg-2,
+.col-xs-3,
+.col-sm-3,
+.col-md-3,
+.col-lg-3,
+.col-xs-4,
+.col-sm-4,
+.col-md-4,
+.col-lg-4,
+.col-xs-5,
+.col-sm-5,
+.col-md-5,
+.col-lg-5,
+.col-xs-6,
+.col-sm-6,
+.col-md-6,
+.col-lg-6,
+.col-xs-7,
+.col-sm-7,
+.col-md-7,
+.col-lg-7,
+.col-xs-8,
+.col-sm-8,
+.col-md-8,
+.col-lg-8,
+.col-xs-9,
+.col-sm-9,
+.col-md-9,
+.col-lg-9,
+.col-xs-10,
+.col-sm-10,
+.col-md-10,
+.col-lg-10,
+.col-xs-11,
+.col-sm-11,
+.col-md-11,
+.col-lg-11,
+.col-xs-12,
+.col-sm-12,
+.col-md-12,
+.col-lg-12 {
+  padding: 0 10px;
+}
+/* 标题 */
+body.night .xe-comment a {
+  color: white;
+}
+/* 网址卡片 ---------------------------------------------------------- 结束*/
+
+/* 网站背景 */
+div.bg {
+  /* position一定要加fixed，可以使图片固定在浏览器，bg-attachment没这好使 */
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: url("https://cdn.staticaly.com/gh/qeesimy-m/Hui.TG@master/background/bluearchive/aru4.webp")
+    no-repeat center center;
+  background-size: cover; /* 填充 */
+}
+.night div.bg {
+  background: url("https://cdn.staticaly.com/gh/qeesimy-m/Hui.TG@master/background/bluearchive/aru5.webp")
+    no-repeat center center;
+  background-size: cover; /* 填充 */
+}
+
+/* 关于我页面 */
+body.page-body.boxed-container.vsc-initialized {
+  /* 禁止滚动 */
+  overflow: hidden;
+}
+.boxed-container div .main-content {
+  background: rgba(255, 255, 255, 0.7) !important;
+}
+.night.boxed-container div .main-content {
+  background: rgba(0, 0, 0, 0.7) !important;
+}
+
+/* 左侧栏 ------------------------------------------------------------------开始 */
+.sidebar-menu .main-menu {
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  opacity: 0.8;
+}
+.sidebar-menu-inner.ps-container {
+  background: url() !important;
+  background-attachment: fixed;
+}
+.sidebar-menu.collapsed .sidebar-menu-inner {
+  position: fixed;
+}
+.sidebar-menu .main-menu a {
+  transition: 0.3s;
+  border-radius: 15px;
+}
+.sidebar-menu .main-menu a:hover {
+  background: #888;
+}
+.sidebar-menu .main-menu a:hover i,
+.sidebar-menu .main-menu a:hover span {
+  color: #fff;
+}
+span.title,
+span.tooltip-blue,
+span#busuanzi_container_site_pv,
+span#busuanzi_value_site_pv,
+span#busuanzi_container_site_uv,
+span#busuanzi_value_site_uv {
+  color: #ddd;
+  font-weight: normal;
+}
+.sidebar-menu .main-menu li.has-sub > a:before,
+.sidebar-menu i {
+  color: #ddd;
+}
+@media screen and (min-width: 768px) {
+  .sidebar-menu.collapsed .main-menu > li:hover > ul {
+    border-radius: 0 12px 12px 0;
+  }
+}
+/* 左侧栏 ------------------------------------------------------------------结束 */
+
+/* 底栏 */
+footer.main-footer.sticky.footer-type-1 {
+  background: rgba(255, 255, 255, 0.7) !important;
+}
+.night footer.main-footer.sticky.footer-type-1 {
+  background: rgba(0, 0, 0, 0.7) !important;
+}
+.footer-inner p {
+  text-align: center;
+}
+/* 右下角回到首页图标 */
+.night div.go-up a i {
+  color: #fff;
+}
+
+/* 底栏 */
+.footer-inner p {
+  color: #666;
+}
+.night .footer-inner p {
+  color: #bbb;
+}
+blockquote p a,
+.footer-inner strong {
+  color: #5F629C;
+}
+.night blockquote p a,
+.night .footer-inner strong {
+  color: #5F629C;
+}
+
+/* 左上角功能按钮 */
+body.night .user-info-navbar .user-info-menu > li > a,
+body.night .user-info-navbar .user-info-menu > li > a:hover {
+  border: none !important;
+}
+
+/* 移动端 ---------------------------- 开始 */
+@media (1200px <= width <= 1400px) {
+  .col-sm-3 {
+    width: 25%;
+  }
+}
+@media (768px <= width <= 1200px) {
+  .col-sm-3 {
+    width: calc(100% / 3);
+  }
+}
+/* 移动端 ---------------------------- 结束 */
